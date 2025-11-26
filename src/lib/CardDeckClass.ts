@@ -3,7 +3,7 @@ import type { ISuits } from "../types";
 import Card from "./CardClass";
 
 class CardDeck {
-  public cardDeck: Card[] = [];
+  private cardDeck: Card[] = [];
   constructor() {
     this.cardDeck = this.generateCards();
   }
