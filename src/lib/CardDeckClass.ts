@@ -25,7 +25,7 @@ class CardDeck {
     return cards;
   }
 
-  public getCard(): Card {
+  private getCard(): Card {
     const randomIndex: number = Math.floor(
       Math.random() * this.cardDeck.length
     );

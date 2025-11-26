@@ -6,7 +6,7 @@ class PokerHand {
     this.myHand = myHand;
   }
 
-  getOutcome(): string {
+  public getOutcome(): string {
     const rankCount: { [key: string]: number } = {};
     const suitCount: { [key: string]: number } = {};
     let rankCountArray: number[] = [];
