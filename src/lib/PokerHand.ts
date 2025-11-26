@@ -33,7 +33,7 @@ class PokerHand {
     rankCountArray = Object.values(rankCount);
     suitCountArray = Object.values(suitCount);
 
-    if (suitCountArray.includes(4)) return "Флэш";
+    if (suitCountArray.includes(5)) return "Флэш";
     if (rankCountArray.includes(3)) return "Тройка";
     if (rankCountArray.filter((count) => count === 2).length === 2) return "Две пары";
     if (rankCountArray.includes(2)) return "Одна пара";
