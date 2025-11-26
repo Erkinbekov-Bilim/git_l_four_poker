@@ -1,7 +1,7 @@
 import type Card from "./CardClass";
 
 class PokerHand {
-  public myHand: Card[];
+  private myHand: Card[];
   constructor(myHand: Card[]) {
     this.myHand = myHand;
   }
